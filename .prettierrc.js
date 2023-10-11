@@ -1,7 +1,24 @@
+// module.exports = {
+//   arrowParens: 'avoid',
+//   bracketSameLine: true,
+//   bracketSpacing: false,
+//   singleQuote: true,
+//   trailingComma: 'all',
+// };
 module.exports = {
-  arrowParens: 'avoid',
+  arrowParens: 'always',
+  bracketSpacing: true,
+  htmlWhitespaceSensitivity: 'css',
+  insertPragma: false,
   bracketSameLine: true,
-  bracketSpacing: false,
+  jsxSingleQuote: true,
+  printWidth: 150,
+  proseWrap: 'always',
+  quoteProps: 'as-needed',
+  requirePragma: false,
+  semi: false,
   singleQuote: true,
-  trailingComma: 'all',
-};
+  tabWidth: 2,
+  trailingComma: 'none',
+  useTabs: false
+}
